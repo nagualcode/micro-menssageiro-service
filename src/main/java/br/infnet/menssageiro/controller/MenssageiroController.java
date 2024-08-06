@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MenssageiroController {
 
     @GetMapping("/msg")
-    public String produce() {
+    public String menssagem() {
         return "Testando, testando, som, 1, 2, 3, alo, som, 1, 2, 3...";
     }
 }
